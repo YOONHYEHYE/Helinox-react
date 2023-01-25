@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Helinox-react/static/css/main.646964eb.css",
-    "main.js": "/Helinox-react/static/js/main.d6a4ee91.js",
+    "main.js": "/Helinox-react/static/js/main.6f25c2cc.js",
     "static/js/787.28cb0dcd.chunk.js": "/Helinox-react/static/js/787.28cb0dcd.chunk.js",
     "static/media/warmer03.jpg": "/Helinox-react/static/media/warmer03.2e61a41d457475dd00d7.jpg",
     "static/media/Pretendard-Black.woff": "/Helinox-react/static/media/Pretendard-Black.fe80bd8c7ce9b3af972f.woff",
@@ -53,11 +53,11 @@
     "static/media/slick.woff": "/Helinox-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Helinox-react/index.html",
     "main.646964eb.css.map": "/Helinox-react/static/css/main.646964eb.css.map",
-    "main.d6a4ee91.js.map": "/Helinox-react/static/js/main.d6a4ee91.js.map",
+    "main.6f25c2cc.js.map": "/Helinox-react/static/js/main.6f25c2cc.js.map",
     "787.28cb0dcd.chunk.js.map": "/Helinox-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.646964eb.css",
-    "static/js/main.d6a4ee91.js"
+    "static/js/main.6f25c2cc.js"
   ]
 }
