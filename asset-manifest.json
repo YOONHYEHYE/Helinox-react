@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Helinox-react/static/css/main.646964eb.css",
-    "main.js": "/Helinox-react/static/js/main.b7ad3774.js",
+    "main.js": "/Helinox-react/static/js/main.5d2c9fcc.js",
     "static/js/787.28cb0dcd.chunk.js": "/Helinox-react/static/js/787.28cb0dcd.chunk.js",
     "static/media/warmer03.jpg": "/Helinox-react/static/media/warmer03.2e61a41d457475dd00d7.jpg",
     "static/media/Pretendard-Black.woff": "/Helinox-react/static/media/Pretendard-Black.fe80bd8c7ce9b3af972f.woff",
@@ -38,6 +38,7 @@
     "static/media/visual02.jpg": "/Helinox-react/static/media/visual02.4367701fb28e37c0cef6.jpg",
     "static/media/warmer02.jpg": "/Helinox-react/static/media/warmer02.34df79b669056d846f46.jpg",
     "static/media/special.jpg": "/Helinox-react/static/media/special.2de0022cb72eba33920a.jpg",
+    "static/media/best05.jpg": "/Helinox-react/static/media/best05.2c9457c7c43985b2c8e0.jpg",
     "static/media/tg08.jpg": "/Helinox-react/static/media/tg08.17d63a3862ab8db1c00c.jpg",
     "static/media/tg04.jpg": "/Helinox-react/static/media/tg04.f033d8600cfaa1205d3b.jpg",
     "static/media/tg05.jpg": "/Helinox-react/static/media/tg05.d9c22197a2226bc2a8aa.jpg",
@@ -53,11 +54,11 @@
     "static/media/slick.woff": "/Helinox-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Helinox-react/index.html",
     "main.646964eb.css.map": "/Helinox-react/static/css/main.646964eb.css.map",
-    "main.b7ad3774.js.map": "/Helinox-react/static/js/main.b7ad3774.js.map",
+    "main.5d2c9fcc.js.map": "/Helinox-react/static/js/main.5d2c9fcc.js.map",
     "787.28cb0dcd.chunk.js.map": "/Helinox-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.646964eb.css",
-    "static/js/main.b7ad3774.js"
+    "static/js/main.5d2c9fcc.js"
   ]
 }
