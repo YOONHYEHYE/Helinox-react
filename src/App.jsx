@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Switch } from "react-router-dom";
 import GlobalStyle from "./style/GlobalStyle";
 import { ThemeProvider } from "styled-components";
 import theme from "./style/theme";
 import MainHome from "./page/main/MainHomePage";
-import OutdoorChair from "./page/outdoor/OutdoorChairPage";
+import Outdoor from "./page/outdoor/OutdoorPage";
+import OutdoorCort from "./page/outdoor/OutdoorCortPage";
 import { mediaMax } from "./util/MediaQurey";
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
         <Main>
           <Routes>
             <Route path="/Helinox-react" element={<MainHome />}></Route>
-            <Route path="/Helinox-react/outdoorchair" element={<OutdoorChair />}></Route>
+            <Switch>
+              <Route path="/Helinox-react/outdoorchair" element={<Outdoor />}></Route>
+              <Route exact path={"/Helinox-react/outdoorcort"} component={<OutdoorCort />} />
+            </Switch>
           </Routes>
         </Main>
         <Footer />

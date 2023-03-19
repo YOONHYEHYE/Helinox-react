@@ -27,5 +27,5 @@ const Underline = styled.div`
   background-color: ${({ theme }) => theme.colors.black};
   width: 100%;
   height: 1px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 `;

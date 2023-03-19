@@ -6,7 +6,7 @@ import ShopProductItem from "../../domain/product/ShopProduct";
 import PageTitle from "../../components/title/PageTitle";
 import GosubTab from "../../components/tab/GosubTab";
 
-function OutdoorChair() {
+function OutdoorCort() {
   return (
     <>
       <ProductPgSection>
@@ -40,7 +40,7 @@ function OutdoorChair() {
   );
 }
 
-export default OutdoorChair;
+export default OutdoorCort;
 
 const ProductPageContainer = styled(Container)`
   padding: 0 50px;

@@ -1,21 +1,26 @@
 import React from "react";
 import styled from "styled-components";
+import { Route, Switch } from "react-router-dom";
 import SideFilter from "../../components/filter/SideFilter";
 import { Container, ProductPgSection } from "../../components/layout/Layout";
 import ShopProductItem from "../../domain/product/ShopProduct";
 import PageTitle from "../../components/title/PageTitle";
 import GosubTab from "../../components/tab/GosubTab";
+import OutdoorCort from "./OutdoorCortPage";
 
-function OutdoorChair() {
+function Outdoor() {
   return (
     <>
       <ProductPgSection>
         <ProductPageContainer>
           <PageTitle>
-            Outdoor<span>(Chair)</span>
+            Outdoor<span>(아웃도어 라인)</span>
           </PageTitle>
           <GosubTab idnumber={0}></GosubTab>
-          <Flex>
+          <Switch>
+            <Route exact path={"/Helinox-react/outdoorcort"} component={<OutdoorCort />} />
+          </Switch>
+          {/* <Flex>
             <SideFilter></SideFilter>
             <ShopProductRepeat>
               <ShopProductItem />
@@ -33,14 +38,14 @@ function OutdoorChair() {
               <ShopProductItem />
               <ShopProductItem />
             </ShopProductRepeat>
-          </Flex>
+          </Flex> */}
         </ProductPageContainer>
       </ProductPgSection>
     </>
   );
 }
 
-export default OutdoorChair;
+export default Outdoor;
 
 const ProductPageContainer = styled(Container)`
   padding: 0 50px;
