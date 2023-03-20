@@ -4,22 +4,26 @@ import { mediaMax } from "../../util/MediaQurey";
 import { HEADER_MENU } from "../../util/constants/constant";
 import { Link } from "react-router-dom";
 
-function GosubTab({ idnumber }) {
-  // 탭선택
+function GosubTab({ idnumber, onChange }) {
+  // const [pageChange, setPageChange] = useState(HEADER_MENU);
+  // const goPage = (index) => {
+  //   const newTab = HEADER_MENU.lnbmenu.map((lnbitem) => (lnbitem.id === index ? { ...lnbitem, tab: true } : { ...lnbitem, tab: false }));
+  //   onChange(newTab);
+  // };
   const [pageChange, setPageChange] = useState(HEADER_MENU);
-  // Tab Click
-  const goPage = (index) => {
-    const newTab = HEADER_MENU.lnbmenu.map((lnbitem) => (lnbitem.id === index ? { ...lnbitem, tab: true } : { ...lnbitem, tab: false }));
-    setPageChange(newTab);
+  const goPage = (idx) => {
+    const newArr = Array(idx.length).fill(false);
+    newArr[idx] = true;
+    setPageChange(newArr);
   };
   return (
     <GoPagemenu>
-      {pageChange.map(
+      {HEADER_MENU.map(
         (item) =>
           item.id === idnumber &&
           item.lnbmenu.map((lnbitem) => (
             <GoPageButton key={lnbitem.id} tabOn={lnbitem.tab} onClick={() => goPage(lnbitem.id)}>
-              <Link>{lnbitem.submenu}</Link>
+              <Link to={lnbitem.url}>{lnbitem.submenu}</Link>
               <ProductNum>{lnbitem.count}</ProductNum>
             </GoPageButton>
           ))

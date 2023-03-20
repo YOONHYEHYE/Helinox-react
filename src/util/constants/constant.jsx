@@ -3,20 +3,20 @@ export const HEADER_MENU = [
     id: 0,
     gnbmenu: "Outdoor",
     lnbmenu: [
-      { id: 1, submenu: "체어", conponent: "OutdoorChairPage", url: "/Helinox-react/outdoorchair", tab: true, count: 2 },
-      { id: 2, submenu: "코트", url: "/Helinox-react/outdoorcort", tab: false, count: 0 },
-      { id: 3, submenu: "테이블", url: "#!", tab: false, count: 0 },
-      { id: 4, submenu: "텐트", url: "#!", tab: false, count: 0 },
-      { id: 5, submenu: "우산 및 기타", url: "#!", tab: false, count: 0 },
-      { id: 6, submenu: "도그코트", url: "#!", tab: false, count: 0 },
-      { id: 7, submenu: "스토리지", url: "#!", tab: false, count: 0 },
+      { id: 0, submenu: "체어", conponent: "OutdoorChair", url: "/Helinox-react/outdoor/chair", count: 2 },
+      { id: 1, submenu: "코트", conponent: "OutdoorCort", url: "/Helinox-react/outdoor/cort", count: 0 },
+      { id: 2, submenu: "테이블", url: "#!", tab: false, count: 0 },
+      { id: 3, submenu: "텐트", url: "#!", tab: false, count: 0 },
+      { id: 4, submenu: "우산 및 기타", url: "#!", tab: false, count: 0 },
+      { id: 5, submenu: "도그코트", url: "#!", tab: false, count: 0 },
+      { id: 6, submenu: "스토리지", url: "#!", tab: false, count: 0 },
     ],
   },
   {
     id: 1,
     gnbmenu: "Home",
     lnbmenu: [
-      { id: 1, submenu: "체어", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "체어", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "코트", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "테이블", url: "#!", tab: false, count: 0 },
     ],
@@ -25,7 +25,7 @@ export const HEADER_MENU = [
     id: 2,
     gnbmenu: "Tactical",
     lnbmenu: [
-      { id: 1, submenu: "체어", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "체어", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "테이블", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "텍티컬 필드 오피스", url: "#!", tab: false, count: 0 },
       { id: 4, submenu: "텐트", url: "#!", tab: false, count: 0 },
@@ -38,7 +38,7 @@ export const HEADER_MENU = [
     id: 3,
     gnbmenu: "Accessories",
     lnbmenu: [
-      { id: 1, submenu: "택티컬 필드 오피스 M 악세서리", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "택티컬 필드 오피스 M 악세서리", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "체어 악세서리", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "워머류", url: "#!", tab: false, count: 0 },
       { id: 4, submenu: "테이블 악세서리", url: "#!", tab: false, count: 0 },
@@ -52,7 +52,7 @@ export const HEADER_MENU = [
     id: 4,
     gnbmenu: "Special/Limited",
     lnbmenu: [
-      { id: 1, submenu: "Leica x Helinox", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "Leica x Helinox", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "BTS | Helinox", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "퍼니쳐", url: "#!", tab: false, count: 0 },
       { id: 4, submenu: "기타", url: "#!, tab: false" },
@@ -67,7 +67,7 @@ export const HEADER_MENU = [
     id: 5,
     gnbmenu: "T.E.R.G",
     lnbmenu: [
-      { id: 1, submenu: "백팩&멀티백", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "백팩&멀티백", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "크로스백&웨이스트백", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "울트라 라이트", url: "#!", tab: false, count: 0 },
       { id: 4, submenu: "파우치&ACC", url: "#!", tab: false, count: 0 },
@@ -79,7 +79,7 @@ export const HEADER_MENU = [
     id: 6,
     gnbmenu: "+Information",
     lnbmenu: [
-      { id: 1, submenu: "Our story", url: "#!", tab: true, count: 0 },
+      { id: 1, submenu: "Our story", url: "#!", tab: false, count: 0 },
       { id: 2, submenu: "공지사항", url: "#!", tab: false, count: 0 },
       { id: 3, submenu: "자주 묻는 질문", url: "#!", tab: false, count: 0 },
       { id: 4, submenu: "상품 문의", url: "#!", tab: false, count: 0 },

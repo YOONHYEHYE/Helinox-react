@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { Route, Switch } from "react-router-dom";
 import SideFilter from "../../components/filter/SideFilter";
 import { Container, ProductPgSection } from "../../components/layout/Layout";
 import ShopProductItem from "../../domain/product/ShopProduct";
 import PageTitle from "../../components/title/PageTitle";
 import GosubTab from "../../components/tab/GosubTab";
+import { Routes, Route } from "react-router-dom";
 import OutdoorCort from "./OutdoorCortPage";
+import OutdoorChair from "./OutdoorChairPage";
+import { HEADER_MENU } from "../../util/constants/constant";
 
 function Outdoor() {
   return (
@@ -14,12 +16,13 @@ function Outdoor() {
       <ProductPgSection>
         <ProductPageContainer>
           <PageTitle>
-            Outdoor<span>(아웃도어 라인)</span>
+            Outdoor<span>(아웃도어)</span>
           </PageTitle>
           <GosubTab idnumber={0}></GosubTab>
-          <Switch>
-            <Route exact path={"/Helinox-react/outdoorcort"} component={<OutdoorCort />} />
-          </Switch>
+          <Routes>
+            <Route path="/chair" element={<OutdoorChair />}></Route>
+            <Route path="/cort" element={<OutdoorCort />}></Route>
+          </Routes>
           {/* <Flex>
             <SideFilter></SideFilter>
             <ShopProductRepeat>

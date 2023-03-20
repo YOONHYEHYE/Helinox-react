@@ -5,37 +5,40 @@ import { Container, ProductPgSection } from "../../components/layout/Layout";
 import ShopProductItem from "../../domain/product/ShopProduct";
 import PageTitle from "../../components/title/PageTitle";
 import GosubTab from "../../components/tab/GosubTab";
+import { Route } from "react-router-dom";
+import OutdoorCort from "./OutdoorCortPage";
 
 function OutdoorChair() {
   return (
     <>
-      <ProductPgSection>
+      {/* <ProductPgSection>
         <ProductPageContainer>
           <PageTitle>
-            Outdoor<span>(Chair)</span>
+            Outdoor<span>(아웃도어)</span>
           </PageTitle>
           <GosubTab idnumber={0}></GosubTab>
-          <Flex>
-            <SideFilter></SideFilter>
-            <ShopProductRepeat>
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-            </ShopProductRepeat>
-          </Flex>
-        </ProductPageContainer>
-      </ProductPgSection>
+          <Route path="/Helinox-react/outdoorchair" exact render={<OutdoorChair/>}></Route> */}
+      <Flex>
+        <SideFilter></SideFilter>
+        <ShopProductRepeat>
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+        </ShopProductRepeat>
+      </Flex>
+      {/* </ProductPageContainer>
+      </ProductPgSection> */}
     </>
   );
 }

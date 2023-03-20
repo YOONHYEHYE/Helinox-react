@@ -9,33 +9,33 @@ import GosubTab from "../../components/tab/GosubTab";
 function OutdoorCort() {
   return (
     <>
-      <ProductPgSection>
+      {/* <ProductPgSection>
         <ProductPageContainer>
           <PageTitle>
-            Outdoor<span>(Chair)</span>
+            Outdoor<span>(cort)</span>
           </PageTitle>
-          <GosubTab idnumber={0}></GosubTab>
-          <Flex>
-            <SideFilter></SideFilter>
-            <ShopProductRepeat>
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-              <ShopProductItem />
-            </ShopProductRepeat>
-          </Flex>
-        </ProductPageContainer>
-      </ProductPgSection>
+          <GosubTab idnumber={0}></GosubTab> */}
+      <Flex>
+        <SideFilter></SideFilter>
+        <ShopProductRepeat>
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+          <ShopProductItem />
+        </ShopProductRepeat>
+      </Flex>
+      {/* </ProductPageContainer>
+      </ProductPgSection> */}
     </>
   );
 }
